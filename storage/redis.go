@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/redis.v3"
+	"github.com/redis/redis"
 
-	"github.com/sammy007/open-ethereum-pool/util"
+	"github.com/Wazzo79/open-contractnet-pool/util"
 )
 
 type Config struct {
